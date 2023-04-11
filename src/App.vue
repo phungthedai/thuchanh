@@ -1,13 +1,15 @@
 <template>
   <div id="app">
     <Header1 />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <MenuLeft/>
+    <div class="contetn">
+      <MenuLeft/>
+      <Content />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Content from './components/Content.vue'
 import MenuLeft from './components/MenuLeft.vue'
 import Header1 from './components/HeaderPage.vue'
 
@@ -15,7 +17,7 @@ import Header1 from './components/HeaderPage.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Content,
     MenuLeft,
     Header1
   }
@@ -23,11 +25,10 @@ export default {
 </script>
 
 <style>
-#app {
-  display: grid;
-  grid-template-areas: 
-  'header header header header header header header header'
-  'menu content content content content content content content'
-  ;
+body {
+  margin: 0;
+}
+.contetn {
+  display: flex;
 }
 </style>

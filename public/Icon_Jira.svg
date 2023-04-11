@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <linearGradient id="k81zzckcxa" x1="1.329" y1=".256" x2=".406" y2=".931" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#263cff"/>
+            <stop offset="1" stop-color="#2684ff"/>
+        </linearGradient>
+        <linearGradient id="t6laep7iyc" x1=".5" y1="1" x2="1.257" y2=".5" xlink:href="#k81zzckcxa"/>
+        <clipPath id="w7q8bc8mkb">
+            <rect data-name="Rectangle 2" width="26" height="26" rx="9" transform="translate(.091 .091)" style="fill:#fff"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-.292 -.292)">
+        <circle data-name="Ellipse 5" cx="18" cy="18" r="18" transform="translate(.292 .292)" style="fill:#b7b7b7;opacity:.4"/>
+        <g data-name="Group 2" transform="translate(5.201 5.201)" style="clip-path:url(#w7q8bc8mkb)">
+            <path data-name="Path 68" d="M30.463 17.922 18.541 6 6.62 17.922a1 1 0 0 0 0 1.413l11.921 11.922 11.922-11.922a1 1 0 0 0 0-1.413zm-11.922 4.439-3.734-3.734 3.734-3.734 3.734 3.734z" transform="translate(-5.451 -5.537)" style="fill:#2684ff"/>
+            <path data-name="Path 69" d="M17.711 14.907a6.286 6.286 0 0 1-.027-8.864l-8.2 8.144 4.447 4.447z" transform="translate(-4.62 -5.526)" style="fill:url(#k81zzckcxa)"/>
+            <path data-name="Path 70" d="M19.743 15.992 16 19.736a6.286 6.286 0 0 1 0 8.893l8.188-8.188z" transform="translate(-2.909 -2.911)" style="fill:url(#t6laep7iyc)"/>
+        </g>
+    </g>
+</svg>

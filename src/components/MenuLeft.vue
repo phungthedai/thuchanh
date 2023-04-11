@@ -9,8 +9,9 @@
 
 <style>
 .menu-content {
-    grid-area: menu;
-    height: calc(100vh - 120px);
-    background-color: #000;
+    height: calc(100vh - 50px);
+    width: 272px;
+    background-color: #1a223e;
+    object-fit: contain;
 }
 </style>
